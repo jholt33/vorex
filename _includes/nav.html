@@ -1,9 +1,42 @@
-<!--Main Menu-->
-<nav class="menu">
-  <ul class="main">
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
 
+
+
+
+<!-- <nav class="menu">
+  <ul class="main"> -->
     <!-- Dynamic Navigation based on "_data/nav.yml" | Edit this ti change navigation -->
-    {% for nav in site.data.nav %}
+    <!-- {% for nav in site.data.nav %}
       {% if nav.subcategories != null %}
         <li class="has-submenu">
           <a href="{{ site.baseurl }}{{ nav.url }}">{{ nav.title }} <i class="fa fa-chevron-down"></i></a>
@@ -22,124 +55,7 @@
           <a href="{{ site.baseurl }}{{ nav.href }}">{{ nav.title }}</a>
         </li>
       {% endif %}
-    {% endfor %}
+    {% endfor %} -->
+  <!-- </ul>
   </ul>
-
-  <ul class="catalog">
-    <li class="has-submenu"><span class="label" style="right:10px; top:-5px;">NEW</span><a href="shop-filters-left-3cols.html">All Custom Artwork<i class="fa fa-chevron-down"></i></a>
-      <ul class="submenu">
-        <li><a href="#">Autos</a></li>
-        <li><a href="#">Creative</a></li>
-        <li><a href="#">Creatures</a></li>
-        <li><a href="#">Figures</a></li>
-        <li><a href="#">Flowers</a></li>
-        <li><a href="#">Landscapes</a></li>
-        <li><a href="#">Lights</a></li>
-        <li class="offer">
-          <div class="col-1">
-            <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="col-2">
-            <img src="{{ site.baseurl }}/assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
-            <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li class="has-submenu"><a href="shop-filters-left-3cols.html">Canvas Art<i class="fa fa-chevron-down"></i></a>
-      <ul class="submenu">
-        <li class="has-submenu"><a href="#">Gallery Wrap</a><!--Class "has-submenu" for adding carret and dropdown-->
-          <ul class="sub-submenu">
-            <li><a href="#">0.75" Thin Frame</a></li>
-            <li><a href="#">1.5" Thick Frame</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Texture</a></li>
-        <li class="has-submenu"><a href="#">Add a Floating Frame</a>
-          <ul class="sub-submenu">
-            <li><a href="#">Black</a></li>
-            <li><a href="#">Maple</a></li>
-            <li><a href="#">Walnut</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Your Photo on Canvas</a></li>
-        <li><a href="#">Canvas only</a></li>
-        <li class="has-submenu"><a href="#">Canvas Tripps - 3 panel</a>
-          <ul class="sub-submenu">
-            <p>Sizes for each panel</p>
-            <li><a href="#">12x24</a></li>
-            <li><a href="#">15x30</a></li>
-            <li><a href="#">18x36</a></li>
-            <li><a href="#">20x40</a></li>
-            <li><a href="#">24x48</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">Canvas Quads - 4 panel</a>
-          <ul class="sub-submenu">
-            <p>Sizes for each panel</p>
-            <li><a href="#">18x18</a></li>
-            <li><a href="#">15x30</a></li>
-            <li><a href="#">16x24</a></li>
-            <li><a href="#">24x24</a></li>
-            <li><a href="#">30x30</a></li>
-            <li><a href="#">24x36</a></li>
-          </ul>
-        </li>
-        <li class="offer">
-          <div class="col-1">
-            <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="col-2">
-            <img src="{{ site.baseurl }}/assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
-            <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li class="has-submenu"><a href="shop-filters-left-3cols.html">Plexi Art<i class="fa fa-chevron-down"></i></a>
-      <ul class="submenu">
-        <li><a href="#">Flame Polished Edges</a></li>
-        <li class="has-submenu"><a href="#">Bolts</a><!--Class "has-submenu" for adding carret and dropdown-->
-          <ul class="sub-submenu">
-            <li><a href="#">Satin Silver</a></li>
-            <li><a href="#">Chrome</a></li>
-          </ul>
-        </li>
-        <li><a href="#">2 inch clear borders</a></li>
-        <li><a href="#">Installation</a></li>
-        <li><a href="#">French Cleats (no bolts)</a></li>
-        <li class="has-submenu"><a href="#">Plexi Tripps - 3 panel</a>
-          <ul class="sub-submenu">
-            <p>Sizes for each panel</p>
-            <li><a href="#">12x24</a></li>
-            <li><a href="#">15x30</a></li>
-            <li><a href="#">18x36</a></li>
-            <li><a href="#">20x40</a></li>
-            <li><a href="#">24x48</a></li>
-          </ul>
-        </li>
-        <li class="has-submenu"><a href="#">Plexi Quads - 4 panel</a>
-          <ul class="sub-submenu">
-            <p>Sizes for each panel</p>
-            <li><a href="#">18x18</a></li>
-            <li><a href="#">15x30</a></li>
-            <li><a href="#">16x24</a></li>
-            <li><a href="#">24x24</a></li>
-            <li><a href="#">30x30</a></li>
-            <li><a href="#">24x36</a></li>
-          </ul>
-        </li>
-        <li class="offer">
-          <div class="col-1">
-            <p class="p-style2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="col-2">
-            <img src="{{ site.baseurl }}/assets/img/offers/menu-drodown-offer.jpg" alt="Special Offer"/>
-            <a class="btn btn-block" href="#"><span>584$</span>Special offer</a>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li><a href="shop-filters-left-3cols.html">Your Photos</a></li>
-  </ul>
-</nav>
+</nav> -->
