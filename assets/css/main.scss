@@ -3,13 +3,13 @@
 
 @charset "utf-8";
 
-/* path to glyphicons */
-$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* custom variable */
 $body-bg: white;
 
 /* any style customization must be before the bootstrap import */
+
+@import "variable-overides";
 @import "bootstrap";
 
 /* Theme
