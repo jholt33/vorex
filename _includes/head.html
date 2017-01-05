@@ -1,41 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec"  prefix="og: http://ogp.me/ns#">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}">
-<meta name="author" content="{{ site.profile.name }}" />
-<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.vorex.com/xmlrpc.php">
 
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-<script src="{{ site.baseurl }}/assets/js/libs/modernizr.custom.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<script src="http://www.vorex.com/wp-content/themes/mytheme/js/html5.js"></script>
 <![endif]-->
 
-<!-- Facebook OpenGraph tags -->
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<script>(function(){document.documentElement.className='js'})();</script>
+<script src="//use.typekit.net/wtx2jhc.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+<meta name="robots" content="noodp,noydir"/>
+<meta name="description" content="{{ site.description }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" />
+<meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
+<meta property="og:title" content="Online Business Management Software - PSA Software | Vorex" />
+<meta property="og:description" content="{{ site.description }}" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="Vorex, Inc." />
+<link rel="manifest" href="manifest.json">
 
-{% if page.id %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
-{% else %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
-{% endif %}
+<link rel="alternate" type="application/rss+xml" title="Vorex, Inc. &raquo; Feed" href="http://www.vorex.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Vorex, Inc. &raquo; Comments Feed" href="http://www.vorex.com/comments/feed/" />
 
-{% if page.fb-img %}
-    <meta property="og:image" content="{{ page.fb-img }}" />
-{% elsif site.avatar %}
-    <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
-{% else %}
-    <meta property="og:image" content="" />
-{% endif %}
+<link rel='stylesheet' id='genericons-css'  href='http://www.vorex.com/wp-content/themes/mytheme/genericons/genericons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://www.vorex.com/wp-content/themes/mytheme/style.css' type='text/css' media='all' />
+
+<script type='text/javascript' src='http://www.vorex.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://www.vorex.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://www.vorex.com/wp-content/themes/mytheme/js/typed.min.js'></script>
+
+<link rel='shortlink' href='http://www.vorex.com/' />
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W52V3S"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W52V3S');</script>
+<!-- End Google Tag Manager -->
+<script src="http://www.vorex.com/wp-content/themes/mytheme/js/myscripts.js"></script>
+<meta name="google-site-verification" content="jik4V6YJCWMLUd4vGaNzJg0asZt_44SJWndW6Mh0Xm4" />
 </head>
