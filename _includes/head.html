@@ -10,9 +10,9 @@
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
 <!--[if lt IE 9]>
-<script src="http://www.vorex.com/wp-content/themes/mytheme/js/html5.js"></script>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>(function(){document.documentElement.className='js'})();</script>
 <script src="//use.typekit.net/wtx2jhc.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
@@ -49,4 +49,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <script src="/assets/js/myscripts.js"></script>
 <meta name="google-site-verification" content="jik4V6YJCWMLUd4vGaNzJg0asZt_44SJWndW6Mh0Xm4" />
+<script>
+  (function($) {
+    $(".typed").typed({
+      strings: ["Business", "Life", "World"],
+      startDelay: 500,
+      typeSpeed: 22,
+      backSpeed: 22,
+      loop: true,
+      showCursor: false,
+      backDelay: 2000
+    });
+  })(jQuery);
+</script>
+
+<script>
+  (function($) {
+    $("#note-close").click(function(e) {
+      $(".notification-row").hide();
+    });
+  })(jQuery);
+</script>
 </head>
