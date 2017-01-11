@@ -20,32 +20,32 @@ Version: 1.0
 ----------------------------------------------------------------------------*/
 @font-face {
     font-family: 'socialicoregular';
-    src: url('/assets/fonts/socialico-webfont.eot');
-    src: url('/assets/fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/socialico-webfont.woff') format('woff'),
-         url('/assets/fonts/socialico-webfont.ttf') format('truetype'),
-         url('/assets/fonts/socialico-webfont.svg#socialicoregular') format('svg');
+    src: url('/vorex/assets/fonts/socialico-webfont.eot');
+    src: url('/vorex/assets/fonts/socialico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/vorex/assets/fonts/socialico-webfont.woff') format('woff'),
+         url('/vorex/assets/fonts/socialico-webfont.ttf') format('truetype'),
+         url('/vorex/assets/fonts/socialico-webfont.svg#socialicoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'socialico_plusregular';
-    src: url('/assets/fonts/socialico_plus-webfont.eot');
-    src: url('/assets/fonts/socialico_plus-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/socialico_plus-webfont.woff') format('woff'),
-         url('/assets/fonts/socialico_plus-webfont.ttf') format('truetype'),
-         url('/assets/fonts/socialico_plus-webfont.svg#socialico_plusregular') format('svg');
+    src: url('/vorex/assets/fonts/socialico_plus-webfont.eot');
+    src: url('/vorex/assets/fonts/socialico_plus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/vorex/assets/fonts/socialico_plus-webfont.woff') format('woff'),
+         url('/vorex/assets/fonts/socialico_plus-webfont.ttf') format('truetype'),
+         url('/vorex/assets/fonts/socialico_plus-webfont.svg#socialico_plusregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'modern_pictograms_proregular';
-    src: url('/assets/fonts/modernpictogramspro_2-webfont.eot');
-    src: url('/assets/fonts/modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/assets/fonts/modernpictogramspro_2-webfont.woff') format('woff'),
-         url('/assets/fonts/modernpictogramspro_2-webfont.ttf') format('truetype');
+    src: url('/vorex/assets/fonts/modernpictogramspro_2-webfont.eot');
+    src: url('/vorex/assets/fonts/modernpictogramspro_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/vorex/assets/fonts/modernpictogramspro_2-webfont.woff') format('woff'),
+         url('/vorex/assets/fonts/modernpictogramspro_2-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -115,7 +115,7 @@ dfn, cite, em, i { font-style: italic; }
  -----------------------------------------------------------*/
 .site-header{ max-width:100%; height:112px; position:relative; background-color:#fb3448;}
 .site-title{ padding:0; margin:0; float:left; padding-top:32px; }
-.site-title a{ display:block; width:202px; height:80px; background:url(/assets/img/logos-favicons/logo-vorex-white.png) center 20px no-repeat; font-size:0;}
+.site-title a{ display:block; width:202px; height:80px; background:url(/vorex/assets/img/logos-favicons/logo-vorex-white.png) center 20px no-repeat; font-size:0;}
 .site-title a:hover{ opacity:0.9;}
 
  /** top short menu
@@ -196,7 +196,7 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 .columns-left .section-img img{ float:right;}
 
 .cta-section{ position:relative; clear:both; height:205px; padding:71px 0; background-color:#fb3448; color:#FFF; text-align:center; box-sizing:border-box;}
-.cta-section:after{ content:""; display:inline-block; width:483px; height:207px; background:url(/assets/img/logos-favicons/logo-mark.png) 0 0 no-repeat; position:absolute; top:0; left:53.5%; }
+.cta-section:after{ content:""; display:inline-block; width:483px; height:207px; background:url(/vorex/assets/img/logos-favicons/logo-mark.png) 0 0 no-repeat; position:absolute; top:0; left:53.5%; }
 .cta-tagline{ font-size:40px; padding-right:50px;}
 .cta-section .cta-link{ position:relative; z-index:1; color:#FFF; }
 .cta-section .cta-link:hover{ opacity:0.85; color:#FFF; }
@@ -335,16 +335,16 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 .includes-item ul{ padding:0; margin:0 0 20px;}
 .includes-item ul li{ padding:17px 30px 17px 72px; border-bottom:1px solid #d9dee1; line-height:1.3em; font-size:18px;}
 .includes-item ul li:first-child{ border-top:1px solid #d9dee1;}
-.includes-item ul li.item1{ background:url(/assets/img/icons/product/icon-project.jpg) 30px center no-repeat;}
-.includes-item ul li.item2{ background:url(/assets/img/icons/product/icon-colock.jpg) 30px center no-repeat;}
-.includes-item ul li.item3{ background:url(/assets/img/icons/product/icon-billing.jpg) 30px center no-repeat;}
-.includes-item ul li.item4{ background:url(/assets/img/icons/product/icon-resource.jpg) 30px center no-repeat;}
-.includes-item ul li.item5{ background:url(/assets/img/icons/product/icon-people.jpg) 30px center no-repeat;}
-.includes-item ul li.item6{ background:url(/assets/img/icons/product/icon-customizable.jpg) 30px center no-repeat;}
-.includes-item ul li.item7{ background:url(/assets/img/icons/product/icon-phone.jpg) 30px center no-repeat;}
-.includes-item ul li.item8{ background:url(/assets/img/icons/product/icon-quickbooks.jpg) 30px center no-repeat;}
-.includes-item ul li.item9{ background:url(/assets/img/icons/product/icon-help.jpg) 30px center no-repeat;}
-.includes-item ul li.item10{ background:url(/assets/img/icons/product/icon-asset.jpg) 30px center no-repeat;}
+.includes-item ul li.item1{ background:url(/vorex/assets/img/icons/product/icon-project.jpg) 30px center no-repeat;}
+.includes-item ul li.item2{ background:url(/vorex/assets/img/icons/product/icon-colock.jpg) 30px center no-repeat;}
+.includes-item ul li.item3{ background:url(/vorex/assets/img/icons/product/icon-billing.jpg) 30px center no-repeat;}
+.includes-item ul li.item4{ background:url(/vorex/assets/img/icons/product/icon-resource.jpg) 30px center no-repeat;}
+.includes-item ul li.item5{ background:url(/vorex/assets/img/icons/product/icon-people.jpg) 30px center no-repeat;}
+.includes-item ul li.item6{ background:url(/vorex/assets/img/icons/product/icon-customizable.jpg) 30px center no-repeat;}
+.includes-item ul li.item7{ background:url(/vorex/assets/img/icons/product/icon-phone.jpg) 30px center no-repeat;}
+.includes-item ul li.item8{ background:url(/vorex/assets/img/icons/product/icon-quickbooks.jpg) 30px center no-repeat;}
+.includes-item ul li.item9{ background:url(/vorex/assets/img/icons/product/icon-help.jpg) 30px center no-repeat;}
+.includes-item ul li.item10{ background:url(/vorex/assets/img/icons/product/icon-asset.jpg) 30px center no-repeat;}
 
 .cta-trial{ height:208px; background-color:#003a49; box-sizing:border-box;}
 .cta-trial.cta-section:after{ left:50%;}
@@ -357,16 +357,16 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 .product-page .section.columns-right .section-title, .product-page .section.columns-left .section-title{ padding-top:10px;}
 .product-page .section1.columns-right{ padding-top:0;}
 
-.page-id-9 .section1.columns-left .section-title{ background:url(/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px;}
+.page-id-9 .section1.columns-left .section-title{ background:url(/vorex/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px;}
 .page-id-9 .section2.columns-right{ background-color:#fb3448;  color:#FFF;}
-.page-id-9 .section2.columns-right .section-title{ background:url(/assets/img/icons/product/icon-project.png) 12px bottom no-repeat; padding-left:95px; color:#FFF; padding-bottom:10px;}
-.page-id-9 .section3.columns-left .section-title{ background:url(/assets/img/icons/product/icon-colock.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:17px;}
+.page-id-9 .section2.columns-right .section-title{ background:url(/vorex/assets/img/icons/product/icon-project.png) 12px bottom no-repeat; padding-left:95px; color:#FFF; padding-bottom:10px;}
+.page-id-9 .section3.columns-left .section-title{ background:url(/vorex/assets/img/icons/product/icon-colock.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:17px;}
 .page-id-9 .section4.columns-right{ background-color:#6BCB97; color:#FFF;}
-.page-id-9 .section4.columns-right .section-title{ background:url(/assets/img/icons/product/icon-billing.png) 12px bottom no-repeat; padding-left:95px; color:#FFF; padding-bottom:10px;}
-.page-id-9 .section5.columns-left .section-title{ background:url(/assets/img/icons/product/icon-resource.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:12px;}
+.page-id-9 .section4.columns-right .section-title{ background:url(/vorex/assets/img/icons/product/icon-billing.png) 12px bottom no-repeat; padding-left:95px; color:#FFF; padding-bottom:10px;}
+.page-id-9 .section5.columns-left .section-title{ background:url(/vorex/assets/img/icons/product/icon-resource.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:12px;}
 .page-id-9 .section6.columns-right{ background-color:#005F71; color:#FFF;}
-.page-id-9 .section6.columns-right .section-title{ background:url(/assets/img/icons/product/icon-people.png) 0 bottom no-repeat; padding-left:100px; color:#FFF; padding-bottom:10px;}
-.page-id-9 .section7.columns-left .section-title{ background:url(/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:6px;}
+.page-id-9 .section6.columns-right .section-title{ background:url(/vorex/assets/img/icons/product/icon-people.png) 0 bottom no-repeat; padding-left:100px; color:#FFF; padding-bottom:10px;}
+.page-id-9 .section7.columns-left .section-title{ background:url(/vorex/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px; padding-bottom:6px;}
 
 .page-id-493 .solutions-page .section.section2.columns-left{ padding-bottom:0; }
 .page-id-493 .solutions-page .section2 .section-copy{ margin-bottom:0; }
@@ -433,7 +433,7 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 
 /* Industries Page */
 .page-id-470 .solutions-page .section1 .section-img img {max-width: none; }
-.page-id-470 .section1.columns-left .section-title{ background:url(/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px;}
+.page-id-470 .section1.columns-left .section-title{ background:url(/vorex/assets/img/icons/product/icon-cloud.png) 0 bottom no-repeat; padding-left:100px;}
 .page-id-470 .solutions-page .columns-right .col.col-2.section-detail {color:#FFF; }
 .page-id-470 .solutions-page .section2.columns-right .section-title,
 .page-id-470 .solutions-page .section4.columns-right .section-title,
@@ -630,7 +630,7 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 
 .post .entry-header .posted-on, .media .entry-header .posted-on{ font-size:18px; color:#656f76;}
 .post .entry-header .author, .media .entry-header .author{ text-transform:capitalize;}
-.media .entry-header .author a{ display:inline-block; margin-left:20px; color:#005f71; background:url(/assets/img/icons/icon-author.png) 0 center no-repeat; padding-left:18px;}
+.media .entry-header .author a{ display:inline-block; margin-left:20px; color:#005f71; background:url(/vorex/assets/img/icons/icon-author.png) 0 center no-repeat; padding-left:18px;}
 .post .post-thumbnail{ display:block; margin-bottom:20px;}
 .post .post-thumbnail img{ width:100%; height:auto;}
 .post .more-link, .media .more-link, .resource-item-link { display:block; width:170px; height:58px; line-height:58px; margin:40px 0 70px; text-align:center; padding:0; font-family: "effra",sans-serif; font-size:21px; font-weight:400; color:#fb3448; border:2px solid #fb3448; text-transform:uppercase;}
@@ -657,13 +657,13 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 .widget_search{ position:relative; margin-bottom:20px;}
 .searchform{ position:relative; }
 .searchform input#s{ width:100%; height:56px; padding:0 60px 0 20px; border:2px solid #fb3448; box-sizing:border-box; font-family: "effra",sans-serif; font-weight:400; font-size:21px; color:#fb3449; text-transform:uppercase;}
-.searchform input#searchsubmit{ display:inline-block; width:40px; height:56px; cursor:pointer; font-size:0; background:url(/assets/img/icons/icon-search.png) center center no-repeat; border:none; position:absolute; top:0; right:10px;}
+.searchform input#searchsubmit{ display:inline-block; width:40px; height:56px; cursor:pointer; font-size:0; background:url(/vorex/assets/img/icons/icon-search.png) center center no-repeat; border:none; position:absolute; top:0; right:10px;}
 .searchform input#searchsubmit:hover{ opacity:0.8;}
 
 .sidebar .widget{ margin-bottom:20px;}
 .sidebar .widget-title{ position:relative; width:100%; height:56px; line-height:54px; padding:0 20px; border:2px solid #fb3448; box-sizing:border-box; font-family: "effra",sans-serif; font-weight:400; font-size:21px; color:#fb3449; text-transform:uppercase; cursor:pointer;}
-.sidebar .widget .widget-title:after{ content:""; display:inline-block; width:40px; height:52px; background:url(/assets/img/icons/icon-plus.png) center center no-repeat; position:absolute; top:0; right:8px;}
-.sidebar .widget.active .widget-title:after{ content:""; background:url(/assets/img/icons/icon-minus.png) center center no-repeat;}
+.sidebar .widget .widget-title:after{ content:""; display:inline-block; width:40px; height:52px; background:url(/vorex/assets/img/icons/icon-plus.png) center center no-repeat; position:absolute; top:0; right:8px;}
+.sidebar .widget.active .widget-title:after{ content:""; background:url(/vorex/assets/img/icons/icon-minus.png) center center no-repeat;}
 .sidebar .widget-title:hover:after{ opacity:0.8;}
 .sidebar ul{ margin:20px; display:none;}
 .sidebar .widget.active ul{ display:block;}
@@ -813,7 +813,7 @@ header.entry-header{ padding-bottom:0; padding-top:0; }
 
 .bubble:before {
   content: "";
-  background: url(/assets/img/icon_form.png) center no-repeat;
+  background: url(/vorex/assets/img/icon_form.png) center no-repeat;
   position: absolute;
   border-style: solid;
   border-width: 0 !important;
