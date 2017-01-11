@@ -1,0 +1,39 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 168 of /Users/davidmanzer/Documents/vorex/assets/css/main.scss
+
+163: .site-content{ position:relative; clear:both; padding-bottom:392px;}
+164: .entry-content{ position:relative; padding-top:100px; }
+165: .entry-content p, .page-content p{ margin-bottom: 1.6em; }
+166: .entry-content ul{ margin-bottom: 1.6em; }
+167: .entry-content ul li, .entry-content ol li, #cboxLoadedContent ul li{ position:relative; margin-bottom:21px;}
+168: .entry-content ul li:before, #cboxLoadedContent ul li:before { content:"›"; display:inline-block; color:#005f71; padding-right:5px; position:relative; top:-2px; font-family: "chaparral-pro",sans-serif;}
+169: 
+170: .entry-header, .page-header{ padding:50px 0 30px;}
+171: .page-content{ padding-bottom:70px;}
+172: 
+173: header.entry-header{ padding-bottom:0; padding-top:0; }
+
+Backtrace:
+/Users/davidmanzer/Documents/vorex/assets/css/main.scss:168
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:1296:in `rescue in block in find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:1293:in `block in find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:1292:in `each'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:1292:in `each_with_index'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:1292:in `find_encoding_error'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/util.rb:901:in `check_sass_encoding'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/engine.rb:433:in `check_encoding!'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/engine.rb:389:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/engine.rb:278:in `render'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:420:in `run'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/rubygems/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/bin/sass:30:in `load'
+/Applications/Adobe Dreamweaver CC 2017/Adobe Dreamweaver CC 2017.app/Contents/Resources/gems/bin/sass:30:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 168 of /Users/davidmanzer/Documents/vorex/assets/css/main.scss\A \A 163: .site-content{ position:relative; clear:both; padding-bottom:392px;}\A 164: .entry-content{ position:relative; padding-top:100px; }\A 165: .entry-content p, .page-content p{ margin-bottom: 1.6em; }\A 166: .entry-content ul{ margin-bottom: 1.6em; }\A 167: .entry-content ul li, .entry-content ol li, #cboxLoadedContent ul li{ position:relative; margin-bottom:21px;}\A 168: .entry-content ul li:before, #cboxLoadedContent ul li:before { content:\"›\"; display:inline-block; color:#005f71; padding-right:5px; position:relative; top:-2px; font-family: \"chaparral-pro\",sans-serif;}\A 169: \A 170: .entry-header, .page-header{ padding:50px 0 30px;}\A 171: .page-content{ padding-bottom:70px;}\A 172: \A 173: header.entry-header{ padding-bottom:0; padding-top:0; }"; }
