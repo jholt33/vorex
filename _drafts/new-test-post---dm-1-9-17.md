@@ -6,3 +6,6 @@ categories:
   - update
 layout: post
 ---
+
+
+This is a test on creating a new blog post.
