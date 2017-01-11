@@ -55,3 +55,6 @@ exclude:
 - package.json
 created-by: Kaseya
 creator-url:
+  exclude:
+  - README.md
+  - node_modules
