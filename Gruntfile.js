@@ -51,7 +51,7 @@ module.exports = function (grunt) {
                 },
                 options: {
                     watchTask: true,
-                    server: './_site'
+                    server: '_site'
                 }
             }
         }
