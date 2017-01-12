@@ -2,7 +2,20 @@
 node_modules
 .sass-cache
 .jekyll-metadata
+<<<<<<< HEAD
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Gemfile.lock
+=======
+Gemfile.lock
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+Gemfile.lock
+
+_site/Gemfile.lock
+>>>>>>> master
